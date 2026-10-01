@@ -819,6 +819,7 @@ nb = {
 }
 
 out_path = "notebooks/color_invariant_saree_recognition.ipynb"
+os.makedirs(os.path.dirname(out_path) or ".", exist_ok=True)
 with open(out_path, "w", encoding="utf-8") as f:
     json.dump(nb, f, indent=2)
 
