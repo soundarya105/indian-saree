@@ -3,20 +3,6 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Checkpoints and weights
-*.pth
-*.pt
-*.ckpt
-checkpoints/
-
-# Datasets and Archives (Proprietary / Large Data)
-archive/
-archive.zip
-handloom_sarees-20261001T125028Z-1-001/
-handloom_sarees-20261001T125028Z-1-001.zip
-handloom_sarees/
-*.zip
-
 # OS and IDE files
 .DS_Store
 Thumbs.db
